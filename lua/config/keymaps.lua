@@ -3,3 +3,5 @@
 -- Add any additional keymaps here
 vim.keymap.set("i", "jk", "<ESC>", { silent = true })
 vim.keymap.set("i", "kj", "<ESC>", { silent = true })
+
+vim.keymap.set("v", "<leader>C", require("osc52").copy_visual)
